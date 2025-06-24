@@ -66,6 +66,10 @@ h2 {
   margin: 0;
 }
 
+ul {
+  list-style: none;
+}
+
 p {
   color: #5f160f;
   font-size: 1.5rem;
@@ -89,14 +93,23 @@ header {
 }
 
 nav ul {
-  color: #fda837;
+  color: #ffcf7c;
   list-style-type: none;
   display: flex;
   flex-direction: row;
   gap: 20px;
   padding: 0;
   margin: 0 50px;
-  font-size: 2rem;
+  font-size: 1.75rem;
+  text-align: center;
+}
+
+nav ul a {
+  color: #ffcf7c;
+}
+
+nav ul a:hover {
+  color: #fda837;
 }
 
 .scroll-container {
@@ -132,10 +145,57 @@ section {
 }
 
 footer {
+  padding: 25px;
   margin-top: 50px;
   height: 150px;
   width: 100%;
-  background-color: #fda837;
+  background-color: #41150e;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: #240d0c solid 5px;
+}
+
+footer h4 {
+  margin: 5px;
+  color: #ffcf7c;
+}
+
+footer p {
+  color: #ffcf7c;
+}
+
+footer i {
+  font-size: 1.75rem;
+  padding: 0;
+  margin: 0;
+  font-weight: 700;
+}
+
+footer ul {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+}
+
+footer ul li {
+  margin-right: 10px;
+}
+
+footer img {
+  height: 50px;
+  width: auto;
+}
+
+#copyright-bar {
+  color: #ffcf7c;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
 }
 .head-section {
   box-sizing: border-box;
@@ -217,6 +277,9 @@ section .head-section img:nth-of-type(2) {
   width: 0;
 }
 
+.icontest {
+  color: #fda837;
+}
 .skills-grid {
   display: flex;
   flex-direction: row;

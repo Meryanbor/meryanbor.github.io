@@ -5,18 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/icons.css">
     <title>Meryanbor</title>
 </head>
 
 <body>
-    <header>
+    <header id="home">
         <img src="./assets/garment_border.png" alt="">
 
         <nav>
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact</li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
         <img src="./assets/garment_border.png" alt="">
@@ -101,12 +102,29 @@
             </section>
         </main>
         <footer>
-            <ul>
-                <h4>Contact:</h4>
-                <li><a href="https://www.linkedin.com/in/marion-born-687bb6363/" rel="noopener noreferrer">LinkedIn</a>
-                <li><a href="mailto:contact.mana-born@pm.me" rel="noopener noreferrer">Mail</a>
+            <ul id="contact">
+                <li><a href="https://www.linkedin.com/in/marion-born-687bb6363/" rel="noopener noreferrer">
+                        <img src="./assets/icon-linkedin.png" alt="icon-linkedin"
+                            onmouseover="this.src='./assets/icon-linkedin_hover.png'"
+                            onmouseout="this.src='./assets/icon-linkedin.png'">
+                    </a>
+                <li><a href="https://github.com/Meryanbor" rel="noopener noreferrer">
+                        <img src="./assets/icon-github.png" alt="icon-linkedin"
+                            onmouseover="this.src='./assets/icon-github_hover.png'"
+                            onmouseout="this.src='./assets/icon-github.png'">
+                    </a>
+
+                </li>
+                <li><a href="mailto:contact.mana-born@pm.me" rel="noopener noreferrer">
+                        <img src="./assets/icon-mail.png" alt="icon-linkedin"
+                            onmouseover="this.src='./assets/icon-mail_hover.png'"
+                            onmouseout="this.src='./assets/icon-mail.png'">
+                    </a>
                 </li>
             </ul>
+            <div id="copyright-bar"> <i>&copy;</i>
+                <p>2025 Meryanbor </p>
+            </div>
         </footer>
     </div>
 
